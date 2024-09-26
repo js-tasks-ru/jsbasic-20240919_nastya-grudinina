@@ -1,6 +1,3 @@
-/**
- * Эту функцию трогать не нужно
- */
 function print(text) {
   console.log(text);
 }
@@ -12,7 +9,6 @@ function print(text) {
  * @returns {boolean}
  */
 function isValid(name) {
-  // ваш код...
   return !!name && !name.includes(' ') && name.length >= 4;
 }
 
